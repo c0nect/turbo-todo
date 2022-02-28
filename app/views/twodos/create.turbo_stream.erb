@@ -1,0 +1,6 @@
+<%= turbo_stream.prepend "twodos" do %>
+  <%= render "twodo", twodo: @twodo %>
+<% end %>
+<%= turbo_stream.replace "#{dom_id(Twodo.new)}_form" do %>
+  <%= render "form", twodo: Twodo.new %>
+<% end %>
