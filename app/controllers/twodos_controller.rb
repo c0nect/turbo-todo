@@ -1,6 +1,6 @@
 class TwodosController < ApplicationController
   before_action :set_twodo, only: %i[ show edit update destroy ]
-  before_action :authenticate_user!
+  # before_action :authenticate_user!
 
   # GET /twodos or /twodos.json
   def index

@@ -1,20 +1,23 @@
 <div class="mx-auto w-1/2 ">
-  <h1 class="text-2xl font-bold text-gray-900 sm:text-3xl py-1">Todo app</h1>
+  <h1 class="text-2xl font-bold text-gray-900 sm:text-3xl py-2">Todo app</h1>
   <p class="text-1xl font-light">
     <% if user_signed_in? %>
       Welcome, <%= current_user.email + '...' %>
       <%= button_to(
-        'do u want logout?',
+        'do u want logout? 🥲',
         destroy_user_session_path,
+        # confirm: 'Are you sure?',
         method: :delete,
-        class: 'hover:text-gray-600 text-gray-800 font-semibold'
+        class: 'hover:text-gray-600 text-gray-800 font-semibold text-sm'
       ) %>
     <% else %>
-      You no ared logged,
-      <%= link_to(
-        'Login now 🥲',
+      You no ared logged
+      <%= button_to(
+        'login now 🥲',
         new_user_session_path,
-        class: 'hover:text-gray-600 text-gray-800 font-semibold'
+        # confirm: 'Are you sure?',
+        method: :get,
+        class: 'hover:text-gray-600 text-gray-800 font-semibold text-sm'
       ) %>
     <% end %>
   </p>
