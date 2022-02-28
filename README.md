@@ -26,9 +26,14 @@ Here are the technologies used in this project.
 * To run the project:
 >    $ rails s
  
-## Index Page
+## Pages
 
+* Index page
  ![plot](./app/assets/images/todo-app-turbo-index.jpeg)
+* Confirm delete 
+ ![plut](./app/assets/images/confirm-delete-index.jpeg)
+* Edit a todo
+ ![plug](./app/assets/images/edit-todo-index.jpeg)
  
  
 ## Version
