@@ -1,7 +1,7 @@
 <li id="<%= "#{dom_id(twodo)}_container" %>" class="py-2 px-4 border-b border-gray-300">
   <%= turbo_frame_tag dom_id(twodo) do %>
     <div class="flex justify-between items-center space-x-2">
-      <%= link_to twodo.name, edit_twodo_path(twodo), class: twodo.complete? ? 'line-' : '' %>
+      <%= link_to twodo.name, edit_twodo_path(twodo), class: twodo.complete? ? 'line-through' : '' %>
       
       <div class="flex justify-end space-x-3">
         <% if twodo.complete? %>
