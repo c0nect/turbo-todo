@@ -11,6 +11,7 @@ Here are the technologies used in this project.
 * Rails version 7.0.2
 * TailwindCSS
 * Postgresql
+* Turbo-streams
  
 
  
