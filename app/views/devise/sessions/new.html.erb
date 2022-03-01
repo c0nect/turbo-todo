@@ -28,7 +28,7 @@
         <div>
           <%= button_to(
             "Sign in",
-            new_user_registration_path,
+            new_user_session_path(resource_name),
             method: :get,
             data: {turbo: false}, 
             
