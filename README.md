@@ -30,11 +30,15 @@ Here are the technologies used in this project.
 ## Pages
 
 * Index page
- ![plot](./app/assets/images/todo-app-turbo-index.jpeg)
+ ![plot](./app/assets/images/index-new.jpeg)
 * Confirm delete 
  ![plut](./app/assets/images/confirm-delete-index.jpeg)
 * Edit a todo
  ![plug](./app/assets/images/edit-todo-index.jpeg)
+* Sign-in and Sign-up pages
+ ![plug](./app/assets/images/sign-in-page.jpeg)
+ =
+ ![plug](./app/assets/images/sign-up-page.jpeg)
  
  
 ## Version
